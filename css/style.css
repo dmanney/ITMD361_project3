@@ -1,0 +1,132 @@
+body{
+  background-color:#6200c4;
+  font-family:Impact;
+  border: 0.1em solid black;
+  padding: 0 100px 100px 100px;
+  background-size: 1800px 900px;
+}
+header{
+  text-align: center;
+  text-transform: capitalize;
+}
+footer{
+  text-align: center;
+}
+img{
+  width:50%;
+}
+.playing p{
+  font-size: 150%
+}
+.education ul{
+  padding-bottom: 0;
+  font-family: monospace;  
+}
+
+.education ul li{
+  padding-bottom: 0;
+  font-family: monospace;
+  font-size: 200%;
+}
+
+.education p{
+  font-size: 150%;	
+}
+
+.skills ul{
+  padding-bottom: 0;
+  font-family: monospace;
+}
+
+.skills ul li{
+  padding-bottom: 0;
+  font-family: monospace;
+  font-size: 200%;
+}
+
+.experience ul{
+  padding-bottom: 0;
+  font-family: monospace;
+}
+.experience ul li{
+  padding-bottom: 0;
+  font-family: monospace;
+  font-size: 200%;
+}
+.experience p{
+  font-size: 150%;	
+}
+.item{
+  margin:3em 0;
+  width:100%;
+  display: flex;
+  flex-flow: row wrap;
+
+}
+
+h1 {
+  text-align: center;
+}
+h2 {
+  font-family: cursive;
+  font-size: 3em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+}
+h3 {
+  font-family: cursive;
+  font-size: 2em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+}
+h4 {
+  text-align: center;
+}
+p {
+  font-family: cursive;
+}
+strong {
+  float: right;
+}
+
+ul li{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+}
+
+/* Nav Bar*/
+#header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+  text-align: center;
+
+}
+
+#header li {
+  padding: 0;
+}
+
+#header li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 1em;
+  text-decoration: none;
+}
+
+/* Changing link color to purple */
+#header li a:hover {
+  background-color: #c68eff;
+}
+.picked{
+  background-color: #520294;
+}
+
