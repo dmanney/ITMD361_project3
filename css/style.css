@@ -13,7 +13,7 @@ footer{
   text-align: center;
 }
 img{
-  width:50%;
+  border-style: none;
 }
 .slider img {
   display: block;
