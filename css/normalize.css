@@ -15,8 +15,8 @@ footer, header, nav, section, audio, video {
   vertical-align:baseline;
   background:transparent;
 }
-img {
-  padding: 0px 10px;
+img{
+  border-style: none;
 }
 body {
   line-height:1;
