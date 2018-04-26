@@ -112,7 +112,6 @@ ul li{
 }
 
 #header li {
-  padding: 0;
   display: inline-block;
 }
 
@@ -130,5 +129,16 @@ ul li{
 }
 .picked{
   background-color: #520294;
+}
+
+/*Media Query to make mobile friendly*/
+@media screen and (max-width: 500px){
+  #header li{
+    display: inline;
+    width: 100%;
+	border-bottom: 20px;
+	font-size: 25px;
+	padding: 20px;
+  }
 }
 
