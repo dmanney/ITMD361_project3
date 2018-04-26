@@ -113,6 +113,7 @@ ul li{
 
 #header li {
   padding: 0;
+  display: inline-block;
 }
 
 #header li a {
